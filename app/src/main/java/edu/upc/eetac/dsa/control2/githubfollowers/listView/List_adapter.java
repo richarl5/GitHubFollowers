@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.control2.githubfollowers;
+package edu.upc.eetac.dsa.control2.githubfollowers.listView;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
+
+import edu.upc.eetac.dsa.control2.githubfollowers.R;
 
 
 public class List_adapter extends ArrayAdapter<RowItem>{

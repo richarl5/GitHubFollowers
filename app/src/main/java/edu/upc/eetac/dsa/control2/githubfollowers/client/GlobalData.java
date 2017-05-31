@@ -1,20 +1,20 @@
-package edu.upc.eetac.dsa.control2.githubfollowers;
+package edu.upc.eetac.dsa.control2.githubfollowers.client;
 
 import android.app.Application;
 import android.content.res.Configuration;
-
 import java.util.List;
+import edu.upc.eetac.dsa.control2.githubfollowers.entity.Follower;
+import edu.upc.eetac.dsa.control2.githubfollowers.entity.User;
 
-
-
-/**
- * Created by pauli on 12/05/2017.
- */
 
 public class GlobalData extends Application {
 
     private User user;
     private List<Follower> followerList;
+
+    public String getLogin() {
+        return this.getUser().getLogin();
+    }
 
     public User getUser() {
         return user;

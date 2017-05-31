@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.control2.githubfollowers;
+package edu.upc.eetac.dsa.control2.githubfollowers.entity;
 
 /**
  * Created by Home on 31/05/2017.
@@ -12,7 +12,6 @@ public class User {
     private String avatar_url;
 
     public User(){
-
     }
 
     public User (String login, String public_repos, String followers, String avatar_url){

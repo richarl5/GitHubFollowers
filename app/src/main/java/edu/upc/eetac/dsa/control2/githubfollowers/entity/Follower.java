@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.control2.githubfollowers;
+package edu.upc.eetac.dsa.control2.githubfollowers.entity;
 
 import java.io.FileOutputStream;
 

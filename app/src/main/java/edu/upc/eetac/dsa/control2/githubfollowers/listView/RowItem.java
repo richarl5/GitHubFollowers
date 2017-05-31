@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.control2.githubfollowers;
+package edu.upc.eetac.dsa.control2.githubfollowers.listView;
 
 /**
  * Created by pauli on 22/05/2017.
